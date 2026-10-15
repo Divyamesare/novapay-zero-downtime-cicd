@@ -1,0 +1,5 @@
+﻿target/
+*.tar
+app-error.txt
+test-error.txt
+.env
