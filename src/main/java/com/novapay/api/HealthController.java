@@ -19,7 +19,7 @@ public class HealthController {
     public Map<String, String> info() {
         return Map.of(
             "service", "novapay-api",
-            "version", "1.0.0",
+            "version", "1.0.2",
             "environment", "local-demo"
         );
     }

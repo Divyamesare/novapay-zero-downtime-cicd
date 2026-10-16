@@ -1,4 +1,4 @@
-﻿FROM eclipse-temurin:21-jre
+FROM eclipse-temurin:21-jre
 
 WORKDIR /app
 
@@ -10,7 +10,7 @@ RUN apt-get update \
 
 RUN useradd --system --uid 10001 appuser
 
-COPY target/novapay-api-1.0.0.jar app.jar
+COPY target/novapay-api-1.0.2.jar app.jar
 
 USER 10001
 
