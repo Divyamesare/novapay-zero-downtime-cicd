@@ -3,3 +3,6 @@
 app-error.txt
 test-error.txt
 .env
+
+# Local Jenkins backup - do not upload
+jenkins_home_backup.tar.gz
