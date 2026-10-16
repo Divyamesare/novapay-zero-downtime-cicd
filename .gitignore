@@ -6,3 +6,6 @@ test-error.txt
 
 # Local Jenkins backup - do not upload
 jenkins_home_backup.tar.gz
+
+docker.exe
+jenkins-container-inspect.json
