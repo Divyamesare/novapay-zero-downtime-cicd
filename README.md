@@ -27,11 +27,11 @@ Build the application:
 
 Build the Docker image:
 
-    docker build -t novapay-api:1.0.1 .
+    docker build -t novapay-api:1.0.2 .
 
 Run the container:
 
-    docker run -d --name novapay-demo -p 8082:8080 novapay-api:1.0.1
+    docker run -d --name novapay-demo -p 8082:8080 novapay-api:1.0.2
 
 Health endpoint:
 
@@ -47,8 +47,9 @@ Trivy scan reports are stored in security/container/. Review findings and remedi
 
 ## Project Status
 
-This is a learning and assessment project. Additional CI/CD automation, deployment strategies, rollback, and security controls are planned for incremental implementation.
+This is a learning and assessment project. Jenkins CI pipeline successfully checks out the source, runs Maven build and tests, and builds the Docker image. Zero-downtime deployment and rollback verification remain pending.
 
 ## Disclaimer
 
 This is a demonstration project, not a production banking platform.
+
