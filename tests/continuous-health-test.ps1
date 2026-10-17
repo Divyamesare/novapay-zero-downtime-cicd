@@ -1,9 +1,9 @@
-﻿$ErrorActionPreference = "SilentlyContinue"
-$total = 100
+$ErrorActionPreference = "SilentlyContinue"
+$total = 300
 $success = 0
 $failed = 0
 
-Write-Host "Starting 100 health requests..."
+Write-Host "Starting 300 health requests..."
 
 for ($i = 1; $i -le $total; $i++) {
     try {
