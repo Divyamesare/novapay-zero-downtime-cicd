@@ -1,8 +1,15 @@
 NovaPay Recovery Verification
 Date: 2026-10-18
 Proxy URL: http://localhost:8088
-Nginx reload: Successful
+Nginx reload: Successful (previously recorded)
 Active application version: 1.0.2
 Health status: UP
 Application: NovaPay Digital Bank API
-Result: PASS
+Current verification: PASS
+Verified endpoints:
+- http://localhost:8087/api/health -> UP (version 1.0.0)
+- http://localhost:8086/api/health -> UP (version 1.0.2)
+- http://localhost:8088/api/health -> UP
+- http://localhost:8088/api/v1/info -> version 1.0.2
+Note: Current runtime verification confirms the proxy target and health.
+It does not independently prove zero downtime at the exact switching instant.
