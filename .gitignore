@@ -9,3 +9,6 @@ jenkins_home_backup.tar.gz
 
 docker.exe
 jenkins-container-inspect.json
+
+# Temporary Microsoft Word lock files
+~$*.docx
