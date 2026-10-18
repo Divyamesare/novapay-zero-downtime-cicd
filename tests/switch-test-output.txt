@@ -1,0 +1,4 @@
+Starting 300 health requests...
+Total requests: 300
+Successful: 300
+Failed: 0
