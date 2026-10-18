@@ -1,0 +1,8 @@
+NovaPay Recovery Verification
+Date: 2026-10-18
+Proxy URL: http://localhost:8088
+Nginx reload: Successful
+Active application version: 1.0.2
+Health status: UP
+Application: NovaPay Digital Bank API
+Result: PASS
