@@ -1,4 +1,4 @@
-﻿# NovaPay Blue-Green Deployment and Rollback
+# NovaPay Blue-Green Deployment and Rollback
 
 ## Components
 - Previous container: novapay-blue-101, port 8087
@@ -19,4 +19,5 @@ Reload Nginx with: docker exec novapay-proxy nginx -s reload
 - Switched back to port 8086; version 1.0.2 and health UP.
 
 ## Limitation
-Proxy switching and rollback were verified. Continuous request testing during switching has not been performed, so uninterrupted zero downtime is not yet proven.
+Proxy switching and rollback were verified. A continuous health test completed 300 requests with 300 successful responses and 0 failures. This confirms successful health checks during the test run, but does not by itself prove zero downtime at the exact instant of traffic switching.
+
