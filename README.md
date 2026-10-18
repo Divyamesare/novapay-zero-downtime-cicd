@@ -1,4 +1,4 @@
-﻿# NovaPay Zero-Downtime CI/CD Platform
+# NovaPay Zero-Downtime CI/CD Platform
 
 A local DevOps and CI/CD demonstration project for a fictional digital banking application.
 
@@ -47,9 +47,11 @@ Trivy scan reports are stored in security/container/. Review findings and remedi
 
 ## Project Status
 
-This is a learning and assessment project. Jenkins CI pipeline successfully checks out the source, runs Maven build and tests, and builds the Docker image. Zero-downtime deployment and rollback verification remain pending.
+This is a learning and assessment project. The Jenkins CI pipeline checks out the source, runs Maven build and tests, and builds the Docker image. Blue-green traffic switching and rollback were verified locally using Nginx and two application versions (1.0.0 and 1.0.2). A continuous health test recorded 300 successful requests and 0 failures. This test does not independently prove zero downtime at the exact instant of switching.
 
 ## Disclaimer
 
 This is a demonstration project, not a production banking platform.
+
+
 
